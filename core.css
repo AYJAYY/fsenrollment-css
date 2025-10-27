@@ -8,7 +8,7 @@ input[type="search"],
 input[type="url"],
 textarea,
 select {
-  border: 2px solid #1F3886 !important;
+  border: 1px solid #1F3886 !important;
   border-radius: 4px !important;
   padding: 8px 12px !important;
   font-size: 16px !important;
@@ -23,10 +23,10 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 textarea:focus,
 select:focus {
-  outline: 3px solid #1F3886 !important;
+  outline: 2px solid #1F3886 !important;
   outline-offset: 2px !important;
   border-color: #1F3886 !important;
-  border-width: 3px !important;
+  border-width: 2px !important;
   box-shadow: 0 0 0 4px rgba(31, 56, 134, 0.3), 0 0 12px rgba(31, 56, 134, 0.5) !important;
 }
 
@@ -47,7 +47,7 @@ input.sa-form-trigger[type="radio"],
 input.sa-form-trigger-root[type="radio"] {
   width: 16px !important;
   height: 16px !important;
-  border: 2px solid #1F3886 !important;
+  border: 1px solid #1F3886 !important;
   cursor: pointer !important;
   accent-color: #1F3886 !important;
   -webkit-appearance: auto !important;
@@ -60,14 +60,14 @@ input[type="radio"]:focus,
 input.sa-form-trigger[type="checkbox"]:focus,
 input.sa-form-trigger[type="radio"]:focus,
 input.sa-form-trigger-root[type="radio"]:focus {
-  outline: 3px solid #1F3886 !important;
+  outline: 2px solid #1F3886 !important;
   outline-offset: 2px !important;
   box-shadow: 0 0 0 4px rgba(31, 56, 134, 0.3) !important;
 }
 
 /* React Select overrides */
 .Select-control {
-  border: 2px solid #1F3886 !important;
+  border: 1px solid #1F3886 !important;
   border-radius: 4px !important;
   font-size: 16px !important;
   padding: 8px 12px !important;
@@ -81,24 +81,24 @@ input.sa-form-trigger-root[type="radio"]:focus {
 
 .Select-control:focus,
 .Select.is-focused .Select-control {
-  border-width: 3px !important;
-  outline: 3px solid #1F3886 !important;
+  border-width: 2px !important;
+  outline: 2px solid #1F3886 !important;
   outline-offset: 2px !important;
   box-shadow: 0 0 0 4px rgba(31, 56, 134, 0.3), 0 0 12px rgba(31, 56, 134, 0.5) !important;
 }
 
 .Select-menu-outer {
-  border: 2px solid #1F3886 !important;
+  border: 1px solid #1F3886 !important;
   border-top: none !important;
 }
 
 .Select-option {
-  border-left: 2px solid #1F3886 !important;
-  border-right: 2px solid #1F3886 !important;
+  border-left: 1px solid #1F3886 !important;
+  border-right: 1px solid #1F3886 !important;
 }
 
 .Select-option:last-child {
-  border-bottom: 2px solid #1F3886 !important;
+  border-bottom: 1px solid #1F3886 !important;
 }
 
 /* Links (excluding button classes) */
@@ -118,7 +118,7 @@ a:not(.btn-primary):not(.btn-success):not(.btn-outline-danger):hover {
 }
 
 a:not(.btn-primary):not(.btn-success):not(.btn-outline-danger):focus {
-  outline: 3px solid #1F3886 !important;
+  outline: 2px solid #1F3886 !important;
   outline-offset: 2px !important;
   box-shadow: 0 0 0 4px rgba(31, 56, 134, 0.3) !important;
 }
@@ -171,7 +171,7 @@ button.btn-primary:not(.btn-success):not(.btn-outline-danger):hover {
 button.btn-primary:not(.btn-success):not(.btn-outline-danger):focus {
   background-color: #1F3886 !important;
   border-color: #1F3886 !important;
-  outline: 3px solid #1F3886 !important;
+  outline: 2px solid #1F3886 !important;
   outline-offset: 2px !important;
   box-shadow: 0 0 0 4px rgba(31, 56, 134, 0.3) !important;
 }
